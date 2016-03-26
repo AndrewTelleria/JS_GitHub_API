@@ -1,0 +1,12 @@
+$gray : #d3d3d3;
+$purple: #9904E8;
+
+body {
+  background: $gray;
+  margin-top: 30px;
+  color: $purple;
+}
+
+.repoHide {
+  display: none;
+}
