@@ -4,6 +4,8 @@ var getInformation = require('./../js/gitHub.js').getInformation;
 $(document).ready(function(){
 	$('#userInput').click(function(){
 		var userName = $('#userName').val();
-		getInformation();
+		$('.avatar').empty();
+		$('.repos').empty();
+		getInformation(userName);
 	});
 });
